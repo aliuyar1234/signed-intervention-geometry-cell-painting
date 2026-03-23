@@ -1,5 +1,8 @@
 # Signed Intervention Geometry in Cell Painting
 
+[![DOI](https://zenodo.org/badge/1189558738.svg)](https://doi.org/10.5281/zenodo.19185214)
+[![PDF](https://img.shields.io/badge/PDF-manuscript-B31B1B?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://github.com/aliuyar1234/signed-intervention-geometry-cell-painting/raw/main/paper/main.pdf)
+
 This repository contains the code, manuscript, and compact evidence bundle for a locked reanalysis of matched ORF and CRISPR Cell Painting profiles in the JUMP `cpg0016` resource.
 
 The central result is **structured yet fragile**: same-gene ORF/CRISPR morphology is biologically organized, but the final regime map is dominated by asymmetric and ambiguous states and does not support a strong retrieval-style positive claim.
