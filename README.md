@@ -4,6 +4,22 @@ This repository contains the code, manuscript, and compact evidence bundle for a
 
 The central result is **structured yet fragile**: same-gene ORF/CRISPR morphology is biologically organized, but the final regime map is dominated by asymmetric and ambiguous states and does not support a strong retrieval-style positive claim.
 
+## At a glance
+
+- Manuscript PDF: `paper/main.pdf`
+- LaTeX source: `paper/main.tex`
+- Figure source data: `paper/source_data/`
+- Summary evidence bundle: `paper/evidence/`
+- Primary implementation: `src/siggeo/`
+
+## Key findings
+
+- A same-gene ORF/CRISPR morphological regime structure exists.
+- The final regime landscape is dominated by `ambiguous`, `asymmetric_CRISPR`, and `asymmetric_ORF` labels.
+- Biological enrichment survives, especially in asymmetric regimes.
+- Robustness is mixed across preprocessing variants rather than uniformly strong.
+- Retrieval is too weak to support a utility-forward or predictive claim.
+
 ## Main outputs
 
 - Paper PDF: `paper/main.pdf`
@@ -11,7 +27,7 @@ The central result is **structured yet fragile**: same-gene ORF/CRISPR morpholog
 - Figure source data: `paper/source_data/`
 - Summary evidence files: `paper/evidence/`
 
-## What is in this repo
+## Repository layout
 
 - `src/siggeo/`
   Python implementation of the pipeline, including preprocessing, gene-level statistics, signed geometry, retrieval, enrichment, confounds, figures, and paper/report assembly.
@@ -36,7 +52,7 @@ To keep the repository lightweight and publication-friendly, the following are e
 
 The full local run bundles remain available outside the tracked GitHub-facing file set.
 
-## Environment
+## Installation
 
 1. Create a Python 3.11 environment.
 2. Install the package:
@@ -45,7 +61,7 @@ The full local run bundles remain available outside the tracked GitHub-facing fi
 python -m pip install -e .
 ```
 
-## Quick start
+## Reproducing the pipeline
 
 Download the public assets:
 
@@ -76,7 +92,7 @@ powershell -ExecutionPolicy Bypass -File .\paper\build.ps1
 
 That rebuilds `paper/main.pdf` using the local `paper/figures/` assets.
 
-## Public interpretation
+## Interpretation
 
 The cleanest evidence-supported framing of this project is not a triumphant discovery claim. It is a constrained research result showing that:
 
@@ -85,6 +101,10 @@ The cleanest evidence-supported framing of this project is not a triumphant disc
 - robustness is mixed across preprocessing variants
 - biological enrichment survives
 - retrieval remains too weak for a utility-forward claim
+
+## License
+
+This repository is released under the MIT License. See `LICENSE`.
 
 ## Citation
 
