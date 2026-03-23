@@ -24,6 +24,7 @@ paper/*.out
 # Temp and cache clutter
 pytest-cache-files-*/
 tmp*/
+.playwright-cli/
 
 # Internal duplicate/staging bundles
 CONFIG_TEMPLATES/
