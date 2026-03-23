@@ -1,0 +1,42 @@
+project_name: signed_intervention_geometry
+run_name: smoke__offv1__featint__platectrl__thrA2_thrR2__z1p96__beta1p0
+pipeline: smoke_official
+mode: smoke
+data:
+  orf_profile: data/raw/cpg0016/orf_official.parquet
+  crispr_profile: data/raw/cpg0016/crispr_official.parquet
+  metadata_db: data/raw/metadata/db/jump_metadata.duckdb
+  reactome_path: data/raw/annotations/reactome.gmt
+  corum_path: data/raw/annotations/corum.tsv
+preprocess:
+  final_plate_negcon_centering: true
+  min_negcon_per_plate: 8
+  use_exact_feature_intersection: true
+  smoke_plate_limit_per_modality: 4
+activity:
+  min_treated_wells_per_gene_modality: 2
+  strength_z_threshold: 2.0
+  rep_z_threshold: 2.0
+  n_strength_null_samples: 50
+  n_rep_null_samples: 50
+geometry:
+  activity_deciles: 10
+  n_cross_null_samples_per_cell: 1000
+  min_pairs_per_null_cell: 50
+  sign_z_threshold: 1.96
+  asymmetry_threshold: 1.0
+  null_std_floor: 1.0e-6
+bootstrap:
+  n_bootstrap: 50
+  consensus_threshold: 0.70
+retrieval:
+  lambda_values: [0.5]
+  primary_lambda: 0.5
+enrichment:
+  reactome_min_set_size: 10
+  corum_min_set_size: 5
+  primary_min_regime_size: 25
+  fdr_method: bh
+outputs:
+  result_dir: results/runs
+seed: 1337

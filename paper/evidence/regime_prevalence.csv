@@ -1,0 +1,5 @@
+pipeline,regime_label,n_genes,fraction_of_analyzed,n_regime_members
+official,ambiguous,2605,0.4885596399099775,2605
+official,asymmetric_CRISPR,1613,0.3025131282820705,1613
+official,asymmetric_ORF,1111,0.20836459114778694,1111
+official,inactive,3,0.0005626406601650412,3

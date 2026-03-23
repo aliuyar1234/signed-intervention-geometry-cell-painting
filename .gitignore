@@ -1,0 +1,68 @@
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# Local data and generated run outputs
+data/
+results/
+
+# Local machine config
+configs/paths.yaml
+
+# Paper build leftovers
+paper/*.aux
+paper/*.log
+paper/*.out
+
+# Temp and cache clutter
+pytest-cache-files-*/
+tmp*/
+
+# Internal duplicate/staging bundles
+CONFIG_TEMPLATES/
+MODULE_SPECS/
+docs/
+review_bundle_staging/
+review_bundle_staging_v2/
+AGENTS.md
+**/AGENTS.md
+
+# Internal planning and control docs
+ALGORITHM_LOCKS.md
+ANTI_DRIFT_AUDIT.md
+AUDIT_REPORT.md
+ARCHITECTURE.md
+CLAIM_GUARDRAILS.md
+DATA_SPEC.md
+DECISION_RULES.md
+ENVIRONMENT.md
+EXECUTION_START.md
+EXPERIMENT_PLAN.md
+FAILURE_MODES_AND_RECOVERY.md
+FILE_TREE.md
+FULL_PAPER_VERSION.md
+IMPLEMENTATION_PLAN.md
+KILL_CRITERIA.md
+LOCKED_PROJECT_BRIEF.md
+MANIFEST.md
+MVP_VERSION.md
+NEGATIVE_RESULT_FALLBACK.md
+OPEN_QUESTIONS_AND_ASSUMPTIONS.md
+PAPER_PLAN.md
+PATCH_NOTES.md
+PROJECT_SPEC.md
+PROMPT_TO_CODEX.md
+README_MASTER.md
+REFERENCES.md
+RESULTS_SCHEMA.md
+review_bundle_prompt.md
+RUN_MATRIX.md
+TASK_CHECKLIST.md
+VALIDATION_AND_TESTING.md

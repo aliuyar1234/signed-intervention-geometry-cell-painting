@@ -1,0 +1,9 @@
+paths:
+  raw_root: data/raw
+  interim_root: data/interim
+  processed_root: data/processed
+  results_root: results
+  metadata_root: data/raw/metadata
+  cpg0016_root: data/raw/cpg0016
+  annotations_root: data/raw/annotations
+  release_root: results/releases

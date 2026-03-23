@@ -1,0 +1,25 @@
+{
+  "run_dir": "E:\\Research\\signed_intervention_geometry_ssot_patched\\signed_intervention_geometry_ssot_patched\\results\\runs\\offv1__featint__platectrl__thrA2_thrR2__z1p96__beta1p0",
+  "paper_dir": "E:\\Research\\signed_intervention_geometry_ssot_patched\\signed_intervention_geometry_ssot_patched\\results\\runs\\offv1__featint__platectrl__thrA2_thrR2__z1p96__beta1p0\\paper",
+  "figure_count": 6,
+  "table_count": 16,
+  "manuscript_exists": true,
+  "claim_matrix_exists": true,
+  "decision": "pivot",
+  "paper_framing": "negative_result",
+  "rationale": "C1 is supported, but the locked runs quantify a fragility story more clearly than a positive one.",
+  "missing_runs": [],
+  "official_confound_ready": true,
+  "supported_claim_ids": [
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "claim_support": {
+    "C1": "positive",
+    "C2": "fragility",
+    "C3": "positive",
+    "C4": "unsupported"
+  },
+  "retrieval_supported": false
+}

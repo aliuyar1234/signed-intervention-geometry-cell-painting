@@ -1,0 +1,17 @@
+scores:
+  - name: signed_cosine
+    type: raw_signed_cosine
+  - name: abs_cosine
+    type: absolute_cosine
+  - name: sign_z
+    type: null_calibrated_sign_z
+  - name: regime_score
+    type: sign_z_minus_activity_gap
+    lambda: 0.5
+thresholds:
+  strength_z_active: 2.0
+  rep_z_active: 2.0
+  sign_z_main: 1.96
+  asymmetry_main: 1.0
+  bootstrap_consensus: 0.70
+  null_std_floor: 1.0e-6

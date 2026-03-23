@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signed-intervention-geometry"
+version = "0.1.0"
+description = "Research pipeline for signed intervention geometry in Cell Painting."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "duckdb",
+  "joblib",
+  "matplotlib",
+  "numpy",
+  "pandas",
+  "polars",
+  "pyarrow",
+  "pyyaml",
+  "rich",
+  "scikit-learn",
+  "scipy",
+  "statsmodels",
+  "tqdm",
+  "typer>=0.12,<1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+]
+
+[project.scripts]
+siggeo = "siggeo.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+cache_dir = "results/.pytest_cache"

@@ -1,0 +1,4 @@
+comparison_name,has_real_comparison,n_genes_both_confident,n_genes_both_primary_confident,overall_agreement,overall_agreement_primary_only,agreement_collapsed_asymmetric,aligned_agreement,inverse_agreement,orthogonal_agreement,asymmetric_orf_agreement,asymmetric_crispr_agreement,notes
+official_vs_interpretable,true,1539,1494,0.7355425601039636,0.7576974564926372,0.9707602339181286,0.0,0.0,0.0,0.8398268398268398,0.6501182033096927,Agreement computed on genes confident in both runs.
+official_vs_no_final_centering,true,1852,1850,0.9503239740820735,0.9508108108108108,0.9994600431965442,0.0,0.0,0.0,1.0,0.8818998716302953,Agreement computed on genes confident in both runs.
+official_vs_artifact_sensitivity,true,2168,2166,0.9944649446494465,0.9944598337950139,1.0,0.0,0.0,0.0,0.9868421052631579,0.9992481203007518,Agreement computed on genes confident in both runs.

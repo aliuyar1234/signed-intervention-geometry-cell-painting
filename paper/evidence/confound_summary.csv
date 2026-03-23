@@ -1,0 +1,6 @@
+pipeline,confound_name,test_name,statistic_name,statistic_value,p_value,supports_positive_story,notes
+official,magnitude_residualization,ols_residual_mean_shift_descriptive,same_minus_null_mean,0.0008901864513818816,0.5038169823676814,true,Residualized raw_signed_cosine against mean_strength and abs_delta_activity; p-value reported descriptively only.
+official,plate_holdout,leave_one_plate_out_final_label_agreement,agreement_rate,0.868013468013468,,true,Evaluated 60885 leave-one-plate-out folds.
+official,cell_count_availability,availability_scan,cell_count_available,0.0,,true,No cell-count-like metadata columns were available after the locked scan.
+official,strength_decile_prevalence,max_shift_from_overall,max_absolute_fraction_shift,0.43425252380510854,,false,Regime prevalence summarized across mean-strength deciles.
+official,artifact_sensitivity,outlier_removed_final_label_agreement,agreement_rate,0.8958703813475598,,true,"Removed 7635 wells by transparent outlier rule (7331 norm outliers, 344 plate-flagged wells)."

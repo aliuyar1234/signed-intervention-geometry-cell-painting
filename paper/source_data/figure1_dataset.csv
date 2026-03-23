@@ -1,0 +1,7 @@
+metric,value
+overlap_genes,5334
+keep_for_analysis_genes,5332
+active_orf_count,3688
+active_crispr_count,3682
+active_both_count,2552
+shared_feature_count,259
